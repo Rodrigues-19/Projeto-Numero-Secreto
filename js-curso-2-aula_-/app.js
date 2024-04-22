@@ -5,7 +5,7 @@
 // paragrafo.innerHTML = 'Escolha um número entre 1 e 10.';
 
 var listaDeNumerosSorteados = [];
-var numeroLimite = 10;
+var numeroLimite = 1000;
 var secretNumber = gerarNumeroAleatorio();
 tentativas = 1; // contador do jogo
 
