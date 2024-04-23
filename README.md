@@ -32,5 +32,7 @@ mas para fins didáticos, moveremos ela para a área de trabalho. Basta copiar a
 
 # Autores
 
- [<img loading="lazy" src="https://avatars.githubusercontent.com/u/167548049?s=400&u=92117079f5640c7200a7107309d5676d6789d75d&v=4" width=115><br><sub>Gabriel Rodrigues</sub>]([https://github.com/Rodrigues-19]) 
+ [<img loading="lazy" src="https://avatars.githubusercontent.com/u/167548049?s=400&u=92117079f5640c7200a7107309d5676d6789d75d&v=4" width=115><br><sub>Gabriel Rodrigues</sub>](https://github.com/Rodrigues-19)
+  
+
 
