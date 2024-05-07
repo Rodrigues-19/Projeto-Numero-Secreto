@@ -7,7 +7,7 @@
 var listaDeNumerosSorteados = [];
 var numeroLimite = 100;
 var secretNumber = gerarNumeroAleatorio();
-tentativas = 1; // contador do jogo
+chute = 1; // contador do jogo
 
 function exibirTextoNaTela (tag, texto) {           
     var campo = document.querySelector(tag);
@@ -25,19 +25,19 @@ mensagemInicial ();
 function verificarChute () {
     var chuteDoTrouxa  = document.querySelector ('input').value;
 
-if (chuteDoTrouxa == secretNumber) {
-    exibirTextoNaTela('h1', 'Acertou Miseravi!');
-    var concordancia = tentativas > 1 ? 'chutes' : 'chute'
-    var mensagemTentativas = ` Você descobriu o número com ${tentativas} ${concordancia}!`; 
-    exibirTextoNaTela('p', mensagemTentativas);
-    document.getElementById ('reiniciar').removeAttribute('disabled');
-} else if (chuteDoTrouxa < secretNumber) {
-    exibirTextoNaTela('h1', 'ERRRRRROUU');
-    exibirTextoNaTela('p', ' o número é maior!');
-} if (chuteDoTrouxa > secretNumber) {
-    exibirTextoNaTela('h1', 'ERRRRRROUU');
-    exibirTextoNaTela('p', ' o número é menor!')
-} tentativas++;
+    if (chuteDoTrouxa == secretNumber) {
+        exibirTextoNaTela('h1', 'Acertou Miseravi!');
+        var concordancia = chute > 1 ? 'chutes' : 'chute'
+        var mensagemTentativas = ` Você descobriu o número com ${chute} ${concordancia}!`; 
+        exibirTextoNaTela('p', mensagemTentativas);
+        document.getElementById ('reiniciar').removeAttribute('disabled');
+    } else if (chuteDoTrouxa < secretNumber) {
+        exibirTextoNaTela('h1', 'ERRRRRROUU');
+        exibirTextoNaTela('p', ' o número é maior!');
+    } if (chuteDoTrouxa > secretNumber) {
+        exibirTextoNaTela('h1', 'ERRRRRROUU');
+        exibirTextoNaTela('p', ' o número é menor!')
+    } tentativas++;
 limparCampo();
 
 }
