@@ -1,8 +1,8 @@
-// var titulo = document.querySelector('h1');
-// titulo.innerHTML = 'Jogo do número secreto';
+// var titulo = document.querySelector('h1'); - recupera do html a tag h1 que é o título
+// titulo.innerHTML = 'Jogo do número secreto'; - reuperado do html a tag h1, permite que escrevamos o título pelo JS
 
-// var paragrafo = document.querySelector ('p');
-// paragrafo.innerHTML = 'Escolha um número entre 1 e 10.';
+// var paragrafo = document.querySelector ('p'); - recupera do html a tag p que é o parágrafo.
+// paragrafo.innerHTML = 'Escolha um número entre 1 e 10.'; - permite escrever pelo JS no html um parágrafo.
 
 var listaDeNumerosSorteados = [];
 var numeroLimite = 100;
