@@ -73,14 +73,12 @@ function reiniciarJogo() {
 }
 
 // a função (document.querySelector) especifica para o Java qual parte do código em HTML queremos modificar.
-// a função "titulo.innerHTML" nos permite agora que declaramos o título e especificamos em java onde queremos alterar o código em HTML, mudar o texto no HTML que aparecerá na tela.
+// a função "titulo.innerHTML" nos permite agora que declaremos o título e especifiquemos em java onde queremos alterar o código em HTML, mudar o texto no HTML que aparecerá na tela.
 // h1 é a "Head" (cabeça) ou título principal no HTML.
-// podemos usar uma função que guarde um valor de tag para que possamos sempre alterar nosso código sem que seja necessário ficar escrevendo novos documents.querySelector e .innerHTML.
-// essa é a chamada função com parâmetros (que contem entre os parênteses algo). Essa função em especial está sendo usada para substituirmos os códigos acima, afim de simplificar o código     e permitir que não tenhamos que ficr reescrevendo toda hora.
-// Booleano = Verdadeiro ou falso.
+// podemos usar uma função que guarde um valor de tag para que possamos sempre alterar nosso código sem que seja necessário ficar reescrevendo novos documents.querySelector e .innerHTML.
 // é necessario usar o return para que o código armazene o número aleatório na variável, caso contrário, ele não o fará.
-// Arrays são como variáveis, que armazenam mais de uma informação. Na verdade são listas, e são especificadas por colchetes []. O primeiro item dentro de uma array tem o índice 0; o seungo, 1 e assim por diante. De forma que para chamar um item específico dentro de uma array é necessário que se chame por sua posição.
+// Arrays são como variáveis, que armazenam mais de uma informação. Na verdade são listas, e são especificadas por colchetes []. O primeiro item dentro de uma array tem o índice 0; o segundo, 1 e assim por diante. De forma que para chamar um item específico dentro de uma array é necessário que se chame por sua posição.
 // chamar o nome da array e colocar .length no final nos mostrará a quantidade de itens dentro da array.
 // adicionar ".push" permite que você insira mais um elemento à lista.
-//chamar o nome da array e asicionar ".pop()" removerá o último item da array.
-// a função responsiveVpice permite que o texto seja narrado. o Primeiro argumento, indicamos oque queremos que seja narrado, o segundo entre aspas, a linguagem, e o terceiro entre chaves e com a palavra rate "{rate: 1.2}", a velocidade.
+//chamar o nome da array e acionar ".pop()" removerá o último item da array.
+// a função responsiveVoice permite que o texto seja narrado. O primeiro argumento, indicamos o que queremos que seja narrado, o segundo entre aspas, a linguagem, e o terceiro entre chaves e com a palavra rate "{rate: 1.2}", a velocidade.
