@@ -37,7 +37,7 @@ function verificarChute () {
     } if (chuteDoTrouxa > secretNumber) {
         exibirTextoNaTela('h1', 'ERRRRRROUU');
         exibirTextoNaTela('p', ' o número é menor!')
-    } chutes++;
+    } chute++;
 limparCampo();
 
 }
