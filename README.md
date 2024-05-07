@@ -1,6 +1,6 @@
 <h1 align="center"> Jogo Número Secreto by Gabriel Rodrigues </h1>
 
-![Badge Linguagem JavaScripr](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+![Badge Linguagem JavaScripr](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) 
 
 ![Mulher pensando](https://github.com/Rodrigues-19/Projeto-Numero-Secreto/assets/167548049/268c1390-fb8e-45a8-bcd2-e808163bf53d)
 
