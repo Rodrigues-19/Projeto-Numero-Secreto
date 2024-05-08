@@ -12,7 +12,7 @@
 - `Extração de Elementos HTML`
 
 
-Projeto alura iniciando curso de programação | **Sessão: Lógica de programação com Java Script** | :construction: Projeto em construção :construction: 
+Projeto alura iniciando curso de programação | **Sessão: Lógica de programação com Java Script** | Projeto finalizado. 
 
 jogo de adivinhação de números com suporte para audio.
 
